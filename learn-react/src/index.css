@@ -1,5 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap');
 
-body{
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: 'Inter', sans-serif;
+  background: #282D35;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 91px;
+  padding: 38px 27px;
+  background: #21222A;
+}
+
+.navbar>.logoContainer {
+  display: flex;
+  gap: 7px;
+}
+
+.logoContainer>h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.2535px;
+  line-height: 27px;
+  letter-spacing: -0.05em;
+  color: #61DAFB;
+}
+
+.navbar>h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  color: #DEEBF8;
+}
+
+.main {
+  width: 880px;
+  margin: 0 auto;
+  padding-top: 57px;
+  padding-left: 27px;
+  color: #FFFFFF;
+}
+
+.main>h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39.06px;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+  margin-bottom: 46px;
+}
+
+.main>ul{
+  margin-left: 60px;
+}
+.main>ul>li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 20px;
 }
