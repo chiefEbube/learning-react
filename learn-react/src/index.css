@@ -14,7 +14,6 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: space-around;
   align-items: center;
   height: 91px;
   padding: 38px 27px;
@@ -22,6 +21,7 @@ body {
 }
 
 .navbar>.logoContainer {
+  margin-right: auto;
   display: flex;
   gap: 7px;
 }
@@ -45,8 +45,6 @@ body {
 }
 
 .main {
-  width: 880px;
-  margin: 0 auto;
   padding-top: 57px;
   padding-left: 27px;
   color: #FFFFFF;
@@ -63,11 +61,15 @@ body {
 
 .main>ul{
   margin-left: 60px;
+  max-width: 400px;
 }
 .main>ul>li {
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
   line-height: 19px;
   margin-bottom: 20px;
+}
+
+.main>ul>li::marker {
+  font-size: 1.5em;
+  color: #61DAFB;
 }
