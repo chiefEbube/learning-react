@@ -48,6 +48,9 @@ body {
   padding-top: 57px;
   padding-left: 27px;
   color: #FFFFFF;
+  background-image: url(./assets/bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .main>h1 {
