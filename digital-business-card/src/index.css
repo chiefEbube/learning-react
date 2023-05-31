@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Inter', sans-serif;
+  background-color: rgb(37, 36, 36);
+}
+
+.container{
+  max-width: 400px;
+  margin-inline: auto;
+  background-color: rgb(24, 23, 25);
+  height: 100vh;
+  position: relative;
+}
+
+.info{
+  color: rgb(223, 217, 217);
+  text-align: center;
+}
+
+.info > img{
+  width: 250px;
+  margin-top: -30px;
+}
+.info>h1{
+  margin-top: 0.5rem;
+  font-size: 1.6em;
+}
+
+.info>em{
+  font-size: 0.8em;
+  display: block;
+  margin: 4px 0;
+}
+
+.email, .linked{
+  padding: 0.5rem 0.6rem;
+  margin: 0.5rem 1rem;
+  border: none;
+  width: 100px;
+  border-radius: 5px;
+  outline: none;
+}
+
+i{
+  margin-right: 10px;
+}
+
+.email{
+  background-color: rgb(223, 217, 217);
+  color:  rgb(24, 23, 25);;
+}
+
+.linked{
+  background-color: rgb(13, 83, 182);
+  color: rgb(242, 236, 236);
+}
+
+.about{
+  margin: 1.5rem 5rem;
+  color: rgb(242, 236, 236);
+  text-align: left;
+}
+
+.about>h1{
+  font-size: 0.8em;
+  margin-bottom: 5px;
+}
+
+.about p{
+  font-size: 0.6em;
+}
+
+.footer{
+  background-color: rgb(4, 5, 7);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: rgb(223, 217, 217);
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.7em;
+}
